@@ -13,15 +13,15 @@ const projects = [
     stack: "Frontend Development",
     image: Kickass,
     live: "https://thoyaj1718.github.io/High-Energy-Action-Films/",
-    code: "",
+    code: "https://github.com/Thoyaj1718/High-Energy-Action-Films",
   },
   {
     id: 2,
     name: "Thoyaj-Portfolio",
     stack: "Frontend Development",
     image: Portfolio,
-    live: "https://github.com/thoyaj1718",
-    code: "",
+    live: "https://thoyajportfolio.netlify.app/",
+    code: "https://github.com/Thoyaj1718/Thoyaj-Portfolio",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const projects = [
     stack: "Frontend Development",
     image: Quiz,
     live: "https://thoyaj-quiz-tutorials.netlify.app/",
-    code: "",
+    code: "https://github.com/Thoyaj1718/Quiz-App---Easy-Tutorials",
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const projects = [
     stack: "Web Development",
     image: Todo,
     live: "https://to-do-app-ef897.web.app/",
-    code: "",
+    code: "https://github.com/Thoyaj1718/todo-firebase-app",
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ const projects = [
     stack: "Web Development",
     image: Shop,
     live: "https://shopxbythoyaj.netlify.app/",
-    code: "",
+    code: "https://github.com/Thoyaj1718/ShopX",
   },
   {
     id: 6,
