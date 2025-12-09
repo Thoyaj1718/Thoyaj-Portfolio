@@ -1,28 +1,59 @@
 import React from "react";
 import Kickass from "../assets/Kickass.png";
 import Portfolio from "../assets/Portfolio.png";
+import Todo from "../assets/Todo.png";
+import Quiz from "../assets/Quiz-tutorial.png"
+import Shop from "../assets/ShopX.png"
+import bird from "../assets/Flappy-bird.png"
 
 const projects = [
   {
     id: 1,
-    name: "Kickass-movies",
-    technologies: "React, Tailwindcss",
+    name: "High-Energy-Action-Films",
+    stack: "Frontend Development",
     image: Kickass,
-    github: "https://github.com/Thoyaj1718/Kickass-movies",
+    live: "https://thoyaj1718.github.io/High-Energy-Action-Films/",
+    code: "",
   },
   {
     id: 2,
     name: "Thoyaj-Portfolio",
-    technologies: "Frontend Development",
+    stack: "Frontend Development",
     image: Portfolio,
-    github: "https://github.com/thoyaj1718",
+    live: "https://github.com/thoyaj1718",
+    code: "",
   },
   {
     id: 3,
-    name: "Example-port",
-    technologies: "Frontend Development",
-    image: Portfolio,
-    github: "https://github.com/thoyaj1718",
+    name: "Quiz-Tutorial",
+    stack: "Frontend Development",
+    image: Quiz,
+    live: "https://thoyaj-quiz-tutorials.netlify.app/",
+    code: "",
+  },
+  {
+    id: 4,
+    name: "TODO APP",
+    stack: "Web Development",
+    image: Todo,
+    live: "https://to-do-app-ef897.web.app/",
+    code: "",
+  },
+  {
+    id: 5,
+    name: "ShopX",
+    stack: "Web Development",
+    image: Shop,
+    live: "https://shopxbythoyaj.netlify.app/",
+    code: "",
+  },
+  {
+    id: 6,
+    name: "Flappy-Bird",
+    stack: "Web Game",
+    image: bird,
+    live: "https://flappybirdbythoyaj.netlify.app/",
+    code: "https://github.com/Thoyaj1718/Flappy-Bird",
   },
 ];
 
@@ -38,10 +69,14 @@ const Projects = () => {
               <img src={project.image} alt={project.name} className="rounded-lg mb-4 
               w-full h-48 object-cover" />
               <h3 className="text-2xl font-bold mb-2">{project.name}</h3>
-              <p className="text-gray-400 mb-4">{project.technologies}</p>
-              <a href={project.github} className="inline-block bg-gradient-to-r 
+              <p className="text-gray-400 mb-4">{project.stack}</p>
+              <a href={project.live} className="inline-block bg-gradient-to-r 
               from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
-              rel="noopener noreferrer">GitHub</a>
+              rel="noopener noreferrer">Visit</a>
+              
+              <a href={project.code} className="inline-block bg-gradient-to-r 
+              from-green-400 to-blue-500 text-white px-4 py-2 rounded-full" target="_blank" 
+              rel="noopener noreferrer">code</a>
             </div>
           ))}
         </div>

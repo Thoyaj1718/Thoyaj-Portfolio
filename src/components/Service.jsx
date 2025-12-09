@@ -21,16 +21,7 @@ const services = [
     title: "Full-Stack Development",
     description: "Combining both frontend and backend development skills.",
   },
-  {
-    id: 5,
-    title: "Content Writing",
-    description: "Writing content for your business and companies.",
-  },
-  {
-    id: 6,
-    title: "Digital Marketing",
-    description: "Promote your business with our digital marketing team.",
-  },
+  
 ];
 const Service = () => {
   return (
@@ -55,7 +46,6 @@ const Service = () => {
                 {service.title}
               </h3>
               <p className="mt-2 text-gray-300">{service.description}</p>
-              <a href="#" className="mt-4 inline-block text-green-400 hover:text-blue-500">Read More</a>
             </div>
           ))}
         </div>
